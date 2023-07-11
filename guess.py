@@ -1,8 +1,15 @@
+# Importing random module
+import random
+
 # Correct guess number
-guess_num = 9
-user_input = int( input('Guess a number(1 - 20)') )
-if user_input==guess_num:
+guess_num = random.randint 
+i=0
+while i<5:
+ user_input = int( input('Guess a number') )
+ if user_input==guess_num:
     print('Correct')
-else:
+ else:
     print('Try Again')
-    
+i=i+1   
+
+
